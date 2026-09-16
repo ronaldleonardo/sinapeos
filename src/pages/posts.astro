@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const stories = [
+  { title: "The Spray That Almost Killed America's Bird: How the Bald Eagle Came Back", slug: "bald-eagle-recovery", date: "2026-09-14", topics: ["Environment", "Policy"], desc: "The bird that was whittled down to 487 pairs now soars over every state. Here is how it survived us." },
+  { title: "The Scourge That Paralyzed a Nation: How One Man's Needle Ended Polio", slug: "polio-eradication", date: "2026-09-14", topics: ["Medicine", "Public Health"], desc: "In 1952, polio paralyzed 21,000 Americans in one year. One vaccine, one global campaign, and 99.99% of the disease is gone." },
+  { title: "The Disease That Killed 300 Million: How Humanity Wiped It Out", slug: "smallpox-eradication", date: "2026-09-13", topics: ["Medicine", "Public Health"], desc: "Smallpox killed more people than all 20th-century wars combined. Then we erased it." },
+  { title: "The Rain That Was Killing Lakes: How Cap-and-Trade Fixed Acid Rain", slug: "acid-rain-solved", date: "2026-09-13", topics: ["Environment", "Policy"], desc: "Acid rain was destroying lakes across the US. A market-based solution fixed it faster than anyone predicted." },
+  { title: "The River That Caught Fire: How We Brought It Back", slug: "cuyahoga-river-cleanup", date: "2026-09-03", topics: ["Environment", "Policy"], desc: "The Cuyahoga River burned 13 times. Now 60 species swim there." },
+  { title: "The Hole in the Sky: How Humanity Saved the Ozone Layer", slug: "ozone-hole-healing", date: "2026-09-01", topics: ["Environment", "International Cooperation"], desc: "How humanity fixed the ozone layer." },
+];
+---
+
+<BaseLayout title="All Stories: Sinapeos" description="Stories of humanity solving hard problems. Ozone, rivers, polio, DDT, acid rain, and more." canonical="/posts">
+  <h1 style="font-size: 2rem; margin-bottom: 0.5rem;">All Stories</h1>
+  <p style="color: var(--text-dim); margin-bottom: 2rem;">{stories.length} stories. New ones every Mon, Wed, Fri.</p>
+
+  <div class="story-list">
+    {stories.map((story) => (
+      <a href={`/posts/${story.slug}`} class="story-card">
+        <div class="story-meta">
+          <span>{story.date}</span>
+          {story.topics.map((t) => <span class="topic-tag">{t}</span>)}
+        </div>
+        <h2>{story.title}</h2>
+        <p>{story.desc}</p>
+      </a>
+    ))}
+  </div>
+</BaseLayout>
+
+<style is:global>
+  .story-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .story-card { text-decoration: none; display: block; }
+  .topic-tag {
+    background: var(--bg-hover);
+    padding: 0.1rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    color: var(--accent);
+  }
+</style>

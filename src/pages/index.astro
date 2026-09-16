@@ -1,0 +1,197 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const stories = [
+  {
+    title: "The Spray That Almost Killed America's Bird: How the Bald Eagle Came Back",
+    desc: "The bird that was whittled down to 487 pairs now soars over every state. Here is how it survived us.",
+    slug: "bald-eagle-recovery",
+    date: "2026-09-14",
+    topics: ["Environment", "Policy"],
+  },
+  {
+    title: "The Scourge That Paralyzed a Nation: How One Man's Needle Ended Polio",
+    desc: "In 1952, polio paralyzed 21,000 Americans in one year. One vaccine, one global campaign, and 99.99% of the disease is gone.",
+    slug: "polio-eradication",
+    date: "2026-09-14",
+    topics: ["Medicine", "Public Health"],
+  },
+  {
+    title: "The Disease That Killed 300 Million: How Humanity Wiped It Out",
+    desc: "Smallpox killed more people than all 20th-century wars combined. In 1980, it became the first and only human disease ever eradicated.",
+    slug: "smallpox-eradication",
+    date: "2026-09-13",
+    topics: ["Medicine", "Public Health"],
+  },
+  {
+    title: "The Rain That Was Killing Lakes: How Cap-and-Trade Fixed Acid Rain",
+    desc: "Acid rain was destroying lakes across the US. A market-based solution fixed it faster and cheaper than anyone predicted.",
+    slug: "acid-rain-solved",
+    date: "2026-09-13",
+    topics: ["Environment", "Policy"],
+  },
+  {
+    title: "The River That Caught Fire: How We Brought It Back",
+    desc: "The Cuyahoga River burned 13 times. The last fire sparked a movement that cleaned up America's waterways. Today, 60 species of fish swim where flames once flowed.",
+    slug: "cuyahoga-river-cleanup",
+    date: "2026-09-03",
+    topics: ["Environment", "Policy"],
+  },
+  {
+    title: "The Hole in the Sky: How Humanity Saved the Ozone Layer",
+    desc: "In 1985, scientists discovered a hole in the ozone layer the size of North America. The world was told the sky was literally falling. What happened next is the best story nobody knows.",
+    slug: "ozone-hole-healing",
+    date: "2026-09-01",
+    topics: ["Environment", "International Cooperation"],
+  },
+];
+---
+
+<BaseLayout title="Sinapeos: Stories of Humanity Solving Hard Problems" description="The fix we didn't know we needed. Every story follows a problem that seemed hopeless, the wrong turns, the breakthrough, and what it teaches us. Earned hope, grounded in data." canonical="/">
+  <section class="hero">
+    <h1>There is a story the news does not tell you.</h1>
+    <p class="hero-sub">The one where humans figured it out. Every problem that looked hopeless, every crisis that seemed unstoppable :  someone, somewhere, found the fix. This is a collection of those stories.</p>
+    <div class="hero-numbers">
+      <div class="stat">
+        <span class="stat-num">{stories.length}</span>
+        <span class="stat-label">Stories</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">50+</span>
+        <span class="stat-label">Years Covered</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">100%</span>
+        <span class="stat-label">True Stories</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="story-list">
+    {stories.map((story) => (
+      <a href={`/posts/${story.slug}`} class="story-card">
+        <div class="story-meta">
+          <span>{story.date}</span>
+          {story.topics.map((t) => <span class="topic-tag">{t}</span>)}
+        </div>
+        <h2>{story.title}</h2>
+        <p>{story.desc}</p>
+      </a>
+    ))}
+  </section>
+
+  <section class="coming-soon">
+    <h2>Coming Soon</h2>
+    <p>New stories every Monday, Wednesday, and Friday.</p>
+    <ul>
+      <li>The Silent Spring That Never Came: How DDT was defeated and the bald eagle recovered.</li>
+      <li>Acid Rain: The environmental crisis that actually got solved.</li>
+      <li>The Man Who Saved a Billion Lives: Norman Borlaug and the Green Revolution.</li>
+      <li>HIV: From death sentence to manageable disease.</li>
+    </ul>
+  </section>
+</BaseLayout>
+
+<style is:global>
+  .hero {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+    max-width: 650px;
+    margin: 0 auto 1rem;
+    font-family: var(--font-serif);
+    font-weight: 650;
+  }
+
+  .hero-sub {
+    color: var(--text-dim);
+    max-width: 560px;
+    margin: 0 auto 2rem;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    font-family: var(--font-serif);
+  }
+
+  .hero-numbers {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-num {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--accent);
+    font-family: var(--font-serif);
+  }
+
+  .stat-label {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .story-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 3rem;
+  }
+
+  .story-card {
+    text-decoration: none;
+    display: block;
+  }
+
+  .topic-tag {
+    background: var(--bg-hover);
+    padding: 0.1rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    color: var(--accent);
+  }
+
+  .coming-soon {
+    border-top: 1px solid var(--border);
+    padding-top: 2rem;
+  }
+
+  .coming-soon h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-serif);
+  }
+
+  .coming-soon p {
+    color: var(--text-dim);
+    margin-bottom: 1rem;
+  }
+
+  .coming-soon ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .coming-soon li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 0.9rem;
+  }
+
+  .coming-soon li:last-child {
+    border-bottom: none;
+  }
+</style>

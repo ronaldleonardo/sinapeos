@@ -1,0 +1,11 @@
+{
+  "stories": [
+    { "title": "The Hole in the Sky", "slug": "ozone-hole-healing", "status": "done", "date": "2026-09-01" },
+    { "title": "The River That Caught Fire", "slug": "cuyahoga-river-cleanup", "status": "done", "date": "2026-09-03" },
+    { "title": "Polio's Last Stand", "slug": "polio-eradication", "status": "done", "date": "2026-09-14" },
+    { "title": "The Silent Spring That Never Came", "slug": "ddt-bald-eagle-recovery", "status": "pending", "date": "2026-09-07" },
+    { "title": "Acid Rain: The Crisis That Got Solved", "slug": "acid-rain-solved", "status": "done", "date": "2026-09-13" },
+    { "title": "The Man Who Saved a Billion Lives", "slug": "norman-borlaug-green-revolution", "status": "pending", "date": "2026-09-11" },
+    { "title": "HIV: From Death Sentence to Manageable", "slug": "hiv-treatment-revolution", "status": "pending", "date": "2026-09-13" }
+  ]
+}

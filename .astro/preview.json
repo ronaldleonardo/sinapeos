@@ -1,0 +1,18 @@
+{
+	"pid": 64005,
+	"port": 8084,
+	"url": "http://localhost:8084",
+	"urls": {
+		"local": [
+			"http://localhost:8084/"
+		],
+		"network": [
+			"http://192.168.18.182:8084/"
+		],
+		"networkInterfaceNames": [
+			"eth0"
+		]
+	},
+	"background": false,
+	"startedAt": "2026-09-15T18:05:00.010Z"
+}

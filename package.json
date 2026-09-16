@@ -1,0 +1,19 @@
+{
+  "name": "sinapeos",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Sinapeos — The fix we didn't know we needed. Stories of humanity solving hard problems.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^7.2.9"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
