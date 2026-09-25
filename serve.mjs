@@ -69,6 +69,15 @@ const server = http.createServer(async (req, res) => {
     return res.end();
   }
 
+  // 1b. Canonical host: collapse www -> apex (301) so Google only ever sees one host.
+  //     Without this, www.sinapeos.com serves the same content with a canonical pointing
+  //     to the apex, which Search Console flags as "Alternate page with proper canonical tag".
+  const host = (req.headers.host || '').toLowerCase();
+  if (host === 'www.sinapeos.com') {
+    res.writeHead(301, { Location: `https://sinapeos.com${url.pathname}${url.search}` });
+    return res.end();
+  }
+
   // 2. Normalize trailing slash (skip root) to the no-slash canonical form.
   if (path.length > 1 && path.endsWith('/')) {
     res.writeHead(301, { Location: path.slice(0, -1) + url.search });
