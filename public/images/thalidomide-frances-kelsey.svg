@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="A dark office desk with a single lamp, a thick government file, and a small medicine bottle in shadow">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#121212"/>
+      <stop offset="1" stop-color="#1e1e24"/>
+    </linearGradient>
+    <linearGradient id="lamp" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#2b2b33"/>
+      <stop offset="1" stop-color="#16161b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <!-- desk -->
+  <rect x="140" y="470" width="920" height="70" rx="8" fill="#17171c" stroke="#2a2a33" stroke-width="2"/>
+  <rect x="140" y="540" width="920" height="14" rx="4" fill="#131318"/>
+  <!-- lamp -->
+  <rect x="880" y="120" width="12" height="350" rx="5" fill="#2a2a33"/>
+  <path d="M880 130 Q 900 90 960 100 L 985 108 Q 1000 112 995 128 L 975 135 L 880 155 Z" fill="url(#lamp)"/>
+  <ellipse cx="895" cy="474" rx="60" ry="14" fill="#0d0d11" opacity="0.6"/>
+  <ellipse cx="450" cy="480" rx="270" ry="46" fill="#f5c96b" opacity="0.08"/>
+  <!-- the file -->
+  <rect x="300" y="380" width="300" height="95" rx="6" fill="#25252e" stroke="#3a3a45" stroke-width="2"/>
+  <rect x="320" y="402" width="260" height="8" rx="4" fill="#4a4a58"/>
+  <rect x="320" y="420" width="230" height="8" rx="4" fill="#3a3a45"/>
+  <rect x="320" y="438" width="245" height="8" rx="4" fill="#3a3a45"/>
+  <rect x="320" y="456" width="200" height="8" rx="4" fill="#3a3a45"/>
+  <rect x="300" y="475" width="300" height="4" rx="2" fill="#0d0d11"/>
+  <!-- stamped NO over the file -->
+  <g transform="rotate(-8 560 420)">
+    <text x="560" y="420" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#c0392b" opacity="0.92" text-anchor="middle">NO</text>
+  </g>
+  <!-- medicine bottle in shadow -->
+  <g>
+    <rect x="140" y="400" width="46" height="74" rx="6" fill="#22222a" stroke="#33333d" stroke-width="2"/>
+    <rect x="152" y="388" width="22" height="14" rx="3" fill="#3a3a45"/>
+    <rect x="150" y="418" width="26" height="6" rx="3" fill="#4a4a58"/>
+    <rect x="150" y="432" width="26" height="6" rx="3" fill="#4a4a58"/>
+    <rect x="150" y="446" width="26" height="6" rx="3" fill="#4a4a58"/>
+  </g>
+  <text x="1040" y="645" font-family="sans-serif" font-size="18" fill="#5a5a66" text-anchor="end" letter-spacing="2">IMAGE PENDING REGEN</text>
+</svg>
