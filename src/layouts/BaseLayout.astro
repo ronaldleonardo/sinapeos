@@ -14,7 +14,16 @@ const { title, description, canonical, publishedTime, article, image, genre } = 
 const siteName = 'Sinapeos';
 const siteUrl = 'https://sinapeos.com';
 const defaultImage = '/images/og-default.jpg';
-const ogImage = image || defaultImage;
+const ogImageProp = image;
+
+// Only emit image meta/JSON-LD when the file exists on disk (build-time check).
+import fs from 'node:fs';
+const pubExists = (p: string | undefined) => {
+  try { return !!p && fs.existsSync(process.cwd() + '/public' + p); } catch { return false; }
+};
+const ogImagePath = pubExists(ogImageProp) ? ogImageProp : (pubExists(defaultImage) ? defaultImage : undefined);
+const ogImage = ogImagePath; // undefined when no real file exists (meta tags below are conditional)
+const logoUrl = pubExists('/images/logo.png') ? `${siteUrl}/images/logo.png` : undefined;
 const url = canonical ? `${siteUrl}${canonical}` : Astro.url.href;
 ---
 
@@ -36,7 +45,7 @@ const url = canonical ? `${siteUrl}${canonical}` : Astro.url.href;
   <meta property="og:title" content={`${title} | ${siteName}`} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={url} />
-  <meta property="og:image" content={`${siteUrl}${ogImage}`} />
+  {ogImage && <meta property="og:image" content={`${siteUrl}${ogImage}`} />}
   <meta property="og:type" content={article ? 'article' : 'website'} />
   <meta property="og:site_name" content={siteName} />
 
@@ -44,7 +53,7 @@ const url = canonical ? `${siteUrl}${canonical}` : Astro.url.href;
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={`${title} | ${siteName}`} />
   <meta name="twitter:description" content={description} />
-  <meta name="twitter:image" content={`${siteUrl}${ogImage}`} />
+  {ogImage && <meta name="twitter:image" content={`${siteUrl}${ogImage}`} />}
 
   {article && (
     <>
@@ -64,7 +73,7 @@ const url = canonical ? `${siteUrl}${canonical}` : Astro.url.href;
       "publisher": {
         "@type": "Organization",
         "name": siteName,
-        "logo": { "@type": "ImageObject", "url": `${siteUrl}/images/logo.png` }
+        ...(logoUrl ? { "logo": { "@type": "ImageObject", "url": logoUrl } } : {})
       },
       "datePublished": publishedTime || new Date().toISOString().split('T')[0],
     }, null, 2)} />
