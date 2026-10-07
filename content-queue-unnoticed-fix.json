@@ -25,8 +25,10 @@
       ],
       "status": "published",
       "published_date": "2026-10-08",
-      "words": 3485,
-      "url": "https://sinapeos.com/posts/chlorination-jersey-city"
+      "words": 2906,
+      "url": "https://sinapeos.com/posts/chlorination-jersey-city",
+      "audio": true,
+      "hero_image": "none (Atlas gen on hold; no PD source)"
     },
     {
       "rank": 2,
@@ -46,7 +48,12 @@
         "https://www.sciencedirect.com/science/article/pii/S0362028X22087610",
         "https://www.jstor.org/stable/44450819"
       ],
-      "status": "candidate"
+      "status": "published",
+      "published_date": "2026-10-08",
+      "words": 2292,
+      "url": "https://sinapeos.com/posts/pasteurization-milk-infant-mortality",
+      "audio": true,
+      "hero_image": "none (Atlas gen on hold; no PD source)"
     },
     {
       "rank": 3,
@@ -66,7 +73,12 @@
         "https://scienceheroes.com/banting-insulin",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC4707300/"
       ],
-      "status": "candidate"
+      "status": "published",
+      "published_date": "2026-10-08",
+      "words": 2276,
+      "url": "https://sinapeos.com/posts/insulin-1921-death-sentence",
+      "audio": true,
+      "hero_image": "none (Atlas gen on hold; no PD source)"
     },
     {
       "rank": 4,
@@ -86,7 +98,12 @@
         "https://www.woodlibrarymuseum.org/history-of-anesthesia/",
         "https://esaic.org/a-short-history-of-anaesthesia-before-1846/"
       ],
-      "status": "candidate"
+      "status": "published",
+      "published_date": "2026-10-08",
+      "words": 2403,
+      "url": "https://sinapeos.com/posts/anesthesia-ether-1846",
+      "audio": true,
+      "hero_image": "none (Atlas gen on hold; no PD source)"
     },
     {
       "rank": 5,
@@ -106,7 +123,12 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC3509517/",
         "https://www.healio.com/news/endocrinology/20240213/iodized-salt-celebrating-the-centennial-of-a-major-us-public-health-triumph"
       ],
-      "status": "candidate"
+      "status": "published",
+      "published_date": "2026-10-08",
+      "words": 2223,
+      "url": "https://sinapeos.com/posts/iodized-salt-goiter-belt",
+      "audio": true,
+      "hero_image": "none (Atlas gen on hold; no PD source)"
     },
     {
       "rank": 6,

@@ -1,6 +1,34 @@
 {
   "stories": [
     {
+      "title": "New York's Milk Was Killing 8,000 Babies a Year",
+      "slug": "pasteurization-milk-infant-mortality",
+      "status": "done",
+      "date": "2026-10-08",
+      "series": "The Unnoticed Fix"
+    },
+    {
+      "title": "The Diagnosis That Killed Children Within a Year",
+      "slug": "insulin-1921-death-sentence",
+      "status": "done",
+      "date": "2026-10-08",
+      "series": "The Unnoticed Fix"
+    },
+    {
+      "title": "Surgery Meant Being Held Down While You Screamed",
+      "slug": "anesthesia-ether-1846",
+      "status": "done",
+      "date": "2026-10-08",
+      "series": "The Unnoticed Fix"
+    },
+    {
+      "title": "A Generation of Children Grew Up Damaged by Their Soil",
+      "slug": "iodized-salt-goiter-belt",
+      "status": "done",
+      "date": "2026-10-08",
+      "series": "The Unnoticed Fix"
+    },
+    {
       "title": "Jersey City Was Drinking Its Own Sewage",
       "slug": "chlorination-jersey-city",
       "status": "done",
