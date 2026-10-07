@@ -22,7 +22,11 @@
         "https://www.chlorine.org/wp-content/uploads/2022/10/2020-Drinking-Water-Chlorination-Booklet_FINAL.pdf",
         "https://www.nber.org/system/files/working_papers/w25027/revisions/w25027.rev0.pdf",
         "https://en.wikipedia.org/wiki/John_L._Leal"
-      ]
+      ],
+      "status": "published",
+      "published_date": "2026-10-08",
+      "words": 3485,
+      "url": "https://sinapeos.com/posts/chlorination-jersey-city"
     },
     {
       "rank": 2,
@@ -41,7 +45,8 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC6422600/",
         "https://www.sciencedirect.com/science/article/pii/S0362028X22087610",
         "https://www.jstor.org/stable/44450819"
-      ]
+      ],
+      "status": "candidate"
     },
     {
       "rank": 3,
@@ -60,7 +65,8 @@
         "https://sharedhistories.ca/insulin100/history/early-patients/",
         "https://scienceheroes.com/banting-insulin",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC4707300/"
-      ]
+      ],
+      "status": "candidate"
     },
     {
       "rank": 4,
@@ -79,7 +85,8 @@
         "https://www.bbc.com/future/article/20200624-how-agonising-surgery-paved-the-way-for-anaesthetics",
         "https://www.woodlibrarymuseum.org/history-of-anesthesia/",
         "https://esaic.org/a-short-history-of-anaesthesia-before-1846/"
-      ]
+      ],
+      "status": "candidate"
     },
     {
       "rank": 5,
@@ -98,7 +105,8 @@
         "https://www.nber.org/system/files/working_papers/w24847/w24847.pdf",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC3509517/",
         "https://www.healio.com/news/endocrinology/20240213/iodized-salt-celebrating-the-centennial-of-a-major-us-public-health-triumph"
-      ]
+      ],
+      "status": "candidate"
     },
     {
       "rank": 6,
@@ -116,7 +124,8 @@
       "sources": [
         "https://www.sciencemuseum.org.uk/objects-and-stories/medicine/cholera-victorian-london",
         "https://epi-snow.ph.ucla.edu/Stream2_BSPoutbreak_e.html"
-      ]
+      ],
+      "status": "candidate"
     },
     {
       "rank": 7,
@@ -135,7 +144,8 @@
         "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(13)60870-3/fulltext",
         "https://www.cfr.org/event/simple-solution-saved-fifty-four-million-lives",
         "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4B8A9C4B64657965297CCE1E21C108C7/S0025727300036905a.pdf/magic_bullet_the_history_of_oral_rehydration_therapy.pdf"
-      ]
+      ],
+      "status": "candidate"
     },
     {
       "rank": 8,
@@ -148,13 +158,18 @@
       "the_fix": "Thomas Midgley Jr.'s team developed chlorofluorocarbons (Freon) around 1930, a non-toxic, non-flammable refrigerant. The same man had earlier led the team that added tetraethyl lead to gasoline.",
       "delta": "NEEDS VERIFICATION: get the pre-refrigeration foodborne illness figures and, crucially, numbers proving the cold chain was essential to polio and smallpox eradication campaigns.",
       "hook_note": "STRONGEST CROSS-LINK IN THE SET. The refrigerant that made fridges safe went on to tear a hole in the ozone layer, which is the article this site already published. Build this as a companion to the ozone story and link both ways. Midgley putting lead in gasoline AND CFCs in the air is the kind of detail that writes itself, but verify the leaded gasoline role.",
-      "links_to_existing": ["ozone-hole-healing", "polio-eradication", "smallpox-eradication"],
+      "links_to_existing": [
+        "ozone-hole-healing",
+        "polio-eradication",
+        "smallpox-eradication"
+      ],
       "gate_verdict": "PASS on crisis and reveal. Needs cold-chain delta numbers. Highest strategic value because of the cross-link.",
       "sources": [
         "https://en.wikipedia.org/wiki/Thomas_Midgley_Jr.",
         "https://pubs.acs.org/doi/10.1021/ed300098d",
         "https://midgelyawards.com/midgley"
-      ]
+      ],
+      "status": "candidate"
     },
     {
       "rank": 9,
@@ -169,7 +184,10 @@
       "hook_note": "Be honest: this is an 'impossible problem' story, not a crisis story. It fits the main Sinapeos line better than this series.",
       "links_to_existing": [],
       "gate_verdict": "FAIL crisis gate. Either drop, or move to the main Sinapeos line where crisis-first is not the series requirement.",
-      "sources": ["https://www.nobelprize.org/prizes/lists/all-nobel-prizes/all/"]
+      "sources": [
+        "https://www.nobelprize.org/prizes/lists/all-nobel-prizes/all/"
+      ],
+      "status": "candidate"
     },
     {
       "rank": 10,
@@ -184,7 +202,10 @@
       "hook_note": "Nakamura is the classic underdog: working for a small company in a remote part of Japan, against the consensus of the entire industry. Strong character, but the crisis gate fails.",
       "links_to_existing": [],
       "gate_verdict": "FAIL crisis gate. Strong 'impossible problem' story for the main line, not for The Unnoticed Fix.",
-      "sources": ["https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf"]
+      "sources": [
+        "https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf"
+      ],
+      "status": "candidate"
     }
   ]
 }

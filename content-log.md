@@ -7,3 +7,5 @@
 - 2026-09-21: whaling-ban-whale-recovery - The Whales That Came Back: How the World Stopped Hunting Them (1,941 words)
 - 2026-10-02: thalidomide-frances-kelsey - They Called It the Perfect Drug. One FDA Reviewer Said No. (2,554 words body)
 - 2026-10-07: guinea-worm-eradication - There Is No Cure for the Guinea Worm. The World Nearly Erased It Anyway. (3,150 words body)
+
+2026-10-08: chlorination-jersey-city (3,485 words body) - SERIES START: The Unnoticed Fix. Crisis-first: Jersey City typhoid 85/100k (1896), child diarrheal deaths 198/100k (1900). Object (chlorine) not named until 56% through the article. John L. Leal + George Warren Fuller, 99 days secret construction, valves opened 26 Sept 1908. Typhoid death rate immediately halved, ultimately forced to zero. No hero image (Atlas hold, no PD source). Audio generated.

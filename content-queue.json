@@ -1,6 +1,13 @@
 {
   "stories": [
     {
+      "title": "Jersey City Was Drinking Its Own Sewage",
+      "slug": "chlorination-jersey-city",
+      "status": "done",
+      "date": "2026-10-08",
+      "series": "The Unnoticed Fix"
+    },
+    {
       "title": "The Hole in the Sky",
       "slug": "ozone-hole-healing",
       "status": "done",
