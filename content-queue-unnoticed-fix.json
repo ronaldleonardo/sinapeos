@@ -1,0 +1,190 @@
+{
+  "series": "The Unnoticed Fix",
+  "approved": "2026-10-05",
+  "premise": "Everyday objects the reader uses without thinking, whose origin story started as a brutal crisis. The object is never named in Act 1. The reveal lands in Act 4.",
+  "gate": "Crisis-first (hard requirement): Act 1 needs a date, a place, a death toll, and people who believed it was hopeless. No crisis = trivia = reject.",
+  "candidates": [
+    {
+      "rank": 1,
+      "tier": "green",
+      "title": "Jersey City Was Drinking Its Own Sewage",
+      "slug": "chlorination-jersey-city",
+      "reveal": "The glass of tap water in your kitchen.",
+      "crisis": "Jersey City, early 1900s. Typhoid fever death rate 85 per 100,000. The diarrheal death rate for young children in 1900 was 198 per 100,000, roughly ten times the typhoid rate. In 1904 a new untreated supply arrived from Boonton Reservoir and the death rate did not move.",
+      "wrong_turns": "A temporary water supply cut typhoid to about 20 per 100,000 but did not end it. Bringing in a brand new reservoir with no treatment changed nothing. Filtration alone was not enough.",
+      "the_fix": "John L. Leal, physician and sanitary adviser, added chloride of lime to the Boonton Reservoir in 1908. Jersey City became the first city in the United States to routinely disinfect its community drinking water.",
+      "delta": "Chlorination is listed by the CDC as one of the ten greatest public health achievements of the 20th century. Costa (2015) calls clean-water technology including chlorination the biggest contributor to the decline in US infant mortality. In 1900 major US cities were unsanitary havens of disease; by 1940 urban mortality matched rural mortality across 25 cities studied 1900-1940.",
+      "hook_note": "Leal allegedly ordered the chlorination WITHOUT telling the public, and faced lawsuits. Verdict upheld the practice. VERIFY this secret-order detail from a second source before writing. It is the strongest single beat in the story.",
+      "links_to_existing": [],
+      "gate_verdict": "PASS all tests. Strongest candidate in the set.",
+      "sources": [
+        "https://archive.cdc.gov/www_cdc_gov/healthywater/drinking/history.html",
+        "https://www.chlorine.org/wp-content/uploads/2022/10/2020-Drinking-Water-Chlorination-Booklet_FINAL.pdf",
+        "https://www.nber.org/system/files/working_papers/w25027/revisions/w25027.rev0.pdf",
+        "https://en.wikipedia.org/wiki/John_L._Leal"
+      ]
+    },
+    {
+      "rank": 2,
+      "tier": "green",
+      "title": "Milk Was Killing Thousands of Babies a Year",
+      "slug": "pasteurization-milk-infant-mortality",
+      "reveal": "The milk carton in your fridge. It says pasteurized. You have never once thought about why.",
+      "crisis": "Late 1800s, growing cities. Milk carried tuberculosis, typhoid fever, scarlet fever and diphtheria. Infant mortality in New York City in the early 1890s was horrific, with infectious disease killing children at rates that were considered normal.",
+      "wrong_turns": "Certified milk and clean-dairy schemes were expensive and reached only the wealthy. Reformers tried education and inspection alone. The disease kept killing poor children.",
+      "the_fix": "Louis Pasteur's heat treatment (1864) applied to milk. Nathan Straus funded pasteurized milk depots for poor families from 1893 to 1920, proving it worked at scale in the poorest tenement districts.",
+      "delta": "US infant mortality rate fell from 100 deaths per 1,000 live births in 1915 to fewer than 30 by 1950.",
+      "hook_note": "Straus lost his own child and became obsessed. VERIFY the personal-loss detail from a biography source before using it.",
+      "links_to_existing": [],
+      "gate_verdict": "PASS. Crisis is brutal, reveal is visceral, delta is a clean number.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6422600/",
+        "https://www.sciencedirect.com/science/article/pii/S0362028X22087610",
+        "https://www.jstor.org/stable/44450819"
+      ]
+    },
+    {
+      "rank": 3,
+      "tier": "green",
+      "title": "A Diagnosis Meant Death Within a Year",
+      "slug": "insulin-1921-death-sentence",
+      "reveal": "The insulin pen or vial a diabetic uses every day.",
+      "crisis": "Before January 1922, it was exceptional for a person with Type 1 diabetes to live more than a year or two. The only treatment was a starvation diet that bought four or five years and no more. Children died within weeks of diagnosis.",
+      "wrong_turns": "The Allen starvation diet prolonged life slightly but the end was always the same. Dozens of researchers had tried and failed to extract the active substance from the pancreas.",
+      "the_fix": "Frederick Banting and Charles Best, Toronto, 1921, extracted insulin from pancreatic islets. On 11 January 1922, 14-year-old Leonard Thompson became the first person to receive the injection.",
+      "delta": "Type 1 diabetes went from a terminal diagnosis to a manageable chronic condition. The transformation happened within a single generation.",
+      "hook_note": "Leonard Thompson nearly died from the first impure extract, then recovered on a purified batch. The two-injection sequence is the dramatic beat.",
+      "links_to_existing": [],
+      "gate_verdict": "PASS. Protagonist clear, stakes personal, reveal universal.",
+      "sources": [
+        "https://sharedhistories.ca/insulin100/history/early-patients/",
+        "https://scienceheroes.com/banting-insulin",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4707300/"
+      ]
+    },
+    {
+      "rank": 4,
+      "tier": "green",
+      "title": "Surgery Meant Being Held Down and Screaming",
+      "slug": "anesthesia-ether-1846",
+      "reveal": "The dentist's chair. Any operation you have ever had. It never hurt, and that is the whole story.",
+      "crisis": "Before 16 October 1846, surgery was agony. Patients were held down on wooden benches by men called dressers. Surgeons raced the clock because speed was the only mercy. Robert Liston could remove a leg in 25 seconds. Operations were a last resort because many patients died of shock on the table.",
+      "wrong_turns": "Alcohol, opium, and something to bite down on. Nitrous oxide demonstrations had gone badly and set the field back. Many doctors argued pain was unavoidable, or even God-given.",
+      "the_fix": "William T. G. Morton used ether on 16 October 1846 at Massachusetts General Hospital, on patient Edward Gilbert Abbott, with surgeon John Collins Warren operating. The room became known as the Ether Dome.",
+      "delta": "Surgery stopped being a race against agony and became something that could be done slowly, carefully, and safely. Anesthesia is the precondition for every modern surgical procedure.",
+      "hook_note": "Liston's own first ether operation became famous for how fast and quiet it was. The contrast with his reputation is the payoff.",
+      "links_to_existing": [],
+      "gate_verdict": "PASS. Most visceral Act 1 in the set. Strongest sensory opening.",
+      "sources": [
+        "https://www.bbc.com/future/article/20200624-how-agonising-surgery-paved-the-way-for-anaesthetics",
+        "https://www.woodlibrarymuseum.org/history-of-anesthesia/",
+        "https://esaic.org/a-short-history-of-anaesthesia-before-1846/"
+      ]
+    },
+    {
+      "rank": 5,
+      "tier": "green",
+      "title": "The Cure Was Already Sitting on Every Kitchen Table",
+      "slug": "iodized-salt-goiter-belt",
+      "reveal": "The salt shaker. Iodized salt is on nearly every table in America, and almost nobody knows it was a public health intervention.",
+      "crisis": "Early 1900s United States. Large parts of the country, particularly the Great Lakes and Pacific Northwest, formed a goiter belt. Iodine deficiency caused disfiguring goiter and, in children, severe and irreversible cognitive impairment. Fetal iodine deficiency permanently reduces IQ regardless of what happens later.",
+      "wrong_turns": "Nobody believed a common mineral could be the cause. Doctors had documented the geography of goiter for decades without connecting it. Adding iodine to a food staple looked like government overreach.",
+      "the_fix": "David Murray Cowie campaigned to put iodine in salt, after seeing a smaller Swiss program. Iodized salt hit Michigan grocery shelves on 1 May 1924, then the Morton Salt Company took it nationwide.",
+      "delta": "Income rose 11 percent, labor force participation rose 0.68 percentage points, and full-time work rose 0.9 percentage points. In under half a decade the United States went from zero to near-universal availability of iodized salt.",
+      "hook_note": "This is the purest expression of the series. The fix is a shaker on the table, and the economic data is unusually precise.",
+      "links_to_existing": [],
+      "gate_verdict": "PASS. Best fit to the series premise of all ten.",
+      "sources": [
+        "https://www.nber.org/system/files/working_papers/w24847/w24847.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3509517/",
+        "https://www.healio.com/news/endocrinology/20240213/iodized-salt-celebrating-the-centennial-of-a-major-us-public-health-triumph"
+      ]
+    },
+    {
+      "rank": 6,
+      "tier": "yellow",
+      "title": "The River You Could Smell From a Mile Away",
+      "slug": "london-sewers-great-stink",
+      "reveal": "The toilet, and the drain under your street.",
+      "crisis": "London, mid 1800s. The Thames had effectively become the city's largest open sewer. In 1854 cholera killed people in a single Soho block around the Broad Street pump. In the summer of 1858 the smell became so overwhelming that Parliament fled the building.",
+      "wrong_turns": "The prevailing theory blamed bad air, not contaminated water, so money went to moving the smell rather than the water. John Snow's 1854 water map was resisted for years. Chloride of lime was dumped into the river to mask the stench.",
+      "the_fix": "Joseph Bazalgette designed a sewer system that diverted waste away from the river, built 1859 to 1875, and famously sized the pipes for a population far larger than London had at the time.",
+      "delta": "NEEDS VERIFICATION: get the London cholera death toll for the 1853-54 epidemic, the Broad Street outbreak death count, and a life-expectancy or mortality improvement figure for London after the sewers.",
+      "hook_note": "The reveal is the sewer under the street. Strong, but the delta numbers are not secured yet. Verify before writing.",
+      "links_to_existing": [],
+      "gate_verdict": "PASS on crisis, HOLD on delta. Needs numbers.",
+      "sources": [
+        "https://www.sciencemuseum.org.uk/objects-and-stories/medicine/cholera-victorian-london",
+        "https://epi-snow.ph.ucla.edu/Stream2_BSPoutbreak_e.html"
+      ]
+    },
+    {
+      "rank": 7,
+      "tier": "yellow",
+      "title": "The Cure Was Sugar and Salt in Water",
+      "slug": "oral-rehydration-therapy",
+      "reveal": "Sugar and salt in a glass of water. The most effective medical intervention of the century is not a drug.",
+      "crisis": "1971, the Bangladesh refugee crisis. Cholera and diarrheal disease were killing children by dehydration in camps, and there were nowhere near enough IV drips, needles, or people trained to place them.",
+      "wrong_turns": "IV fluid was the only accepted treatment. It required sterile equipment and medical staff that simply did not exist at the scale needed. Sceptics refused to believe the gut could absorb water during severe diarrhoea.",
+      "the_fix": "A measured mixture of salt, sugar, and water, developed and proven by researchers at what is now icddr,b, using the discovery that glucose drives sodium and water absorption in the intestine even during cholera.",
+      "delta": "The Lancet estimated ORS had saved around 50 million lives in three decades. The Council on Foreign Relations puts the figure at more than 54 million.",
+      "hook_note": "Two sources disagree slightly on the total (50M vs 54M). Use the range honestly and name both.",
+      "links_to_existing": [],
+      "gate_verdict": "PASS on crisis and delta. Slightly weaker on the 'object' reveal, since the reveal is a recipe rather than an object.",
+      "sources": [
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(13)60870-3/fulltext",
+        "https://www.cfr.org/event/simple-solution-saved-fifty-four-million-lives",
+        "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4B8A9C4B64657965297CCE1E21C108C7/S0025727300036905a.pdf/magic_bullet_the_history_of_oral_rehydration_therapy.pdf"
+      ]
+    },
+    {
+      "rank": 8,
+      "tier": "yellow",
+      "title": "The Fridge That Killed People From the Inside",
+      "slug": "cold-chain-freon-refrigeration",
+      "reveal": "The refrigerator. And the cold chain that keeps vaccines alive on their way to a child's arm.",
+      "crisis": "1920s households. Early refrigerators ran on ammonia, sulfur dioxide, and methyl chloride, and leaks killed families in their sleep. Newspapers called them death traps. At the same time, foodborne disease was a mass killer and vaccines could not be moved to the places that needed them.",
+      "wrong_turns": "Refrigerant manufacturers kept swapping one toxic gas for another. The safer alternative everyone wanted did not exist.",
+      "the_fix": "Thomas Midgley Jr.'s team developed chlorofluorocarbons (Freon) around 1930, a non-toxic, non-flammable refrigerant. The same man had earlier led the team that added tetraethyl lead to gasoline.",
+      "delta": "NEEDS VERIFICATION: get the pre-refrigeration foodborne illness figures and, crucially, numbers proving the cold chain was essential to polio and smallpox eradication campaigns.",
+      "hook_note": "STRONGEST CROSS-LINK IN THE SET. The refrigerant that made fridges safe went on to tear a hole in the ozone layer, which is the article this site already published. Build this as a companion to the ozone story and link both ways. Midgley putting lead in gasoline AND CFCs in the air is the kind of detail that writes itself, but verify the leaded gasoline role.",
+      "links_to_existing": ["ozone-hole-healing", "polio-eradication", "smallpox-eradication"],
+      "gate_verdict": "PASS on crisis and reveal. Needs cold-chain delta numbers. Highest strategic value because of the cross-link.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Thomas_Midgley_Jr.",
+        "https://pubs.acs.org/doi/10.1021/ed300098d",
+        "https://midgelyawards.com/midgley"
+      ]
+    },
+    {
+      "rank": 9,
+      "tier": "red",
+      "title": "The Machine That Made Copies of Life",
+      "slug": "pcr-kary-mullis",
+      "reveal": "Every COVID test you ever took.",
+      "crisis": "WEAK. Before 1983, molecular biology was bottlenecked: you needed large quantities of DNA to do almost anything, and obtaining it took months. This is a scientific bottleneck, not a humanitarian crisis. It fails the series' hard crisis gate.",
+      "wrong_turns": "Conventional cloning, which was slow, expensive, and limited to fragments that could survive in a living host.",
+      "the_fix": "Kary Mullis, 1983, polymerase chain reaction. Nobel Prize in Chemistry, 1993.",
+      "delta": "PCR became the foundation of DNA sequencing, forensic identification, HIV viral load testing, and every COVID-19 test.",
+      "hook_note": "Be honest: this is an 'impossible problem' story, not a crisis story. It fits the main Sinapeos line better than this series.",
+      "links_to_existing": [],
+      "gate_verdict": "FAIL crisis gate. Either drop, or move to the main Sinapeos line where crisis-first is not the series requirement.",
+      "sources": ["https://www.nobelprize.org/prizes/lists/all-nobel-prizes/all/"]
+    },
+    {
+      "rank": 10,
+      "tier": "red",
+      "title": "They Said Blue Light Was Impossible",
+      "slug": "blue-led-nakamura",
+      "reveal": "Every screen you own, and every light in the room. White LED light is blue LED plus phosphor.",
+      "crisis": "WEAK. Not a crisis: a 30-year technical impossibility. Through the 1980s every known material system for efficient blue emission had fatal shortcomings, and the industry had given up.",
+      "wrong_turns": "Selenium and zinc selenide were abandoned as dead ends, and the whole field bet against gallium nitride.",
+      "the_fix": "Shuji Nakamura and colleagues produced the first efficient blue LED using gallium nitride in 1993. Nobel Prize in Physics, 2014, shared with Isamu Akasaki and Hiroshi Amano.",
+      "delta": "Incandescent bulbs: 16 lm/W. LEDs: 300 lm/W. An estimated 261 TWh of electricity saved by 2030, avoiding the need for at least 30 one-gigawatt power plants and 185 million tons of CO2.",
+      "hook_note": "Nakamura is the classic underdog: working for a small company in a remote part of Japan, against the consensus of the entire industry. Strong character, but the crisis gate fails.",
+      "links_to_existing": [],
+      "gate_verdict": "FAIL crisis gate. Strong 'impossible problem' story for the main line, not for The Unnoticed Fix.",
+      "sources": ["https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf"]
+    }
+  ]
+}
