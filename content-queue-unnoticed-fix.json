@@ -139,15 +139,20 @@
       "crisis": "London, mid 1800s. The Thames had effectively become the city's largest open sewer. In 1854 cholera killed people in a single Soho block around the Broad Street pump. In the summer of 1858 the smell became so overwhelming that Parliament fled the building.",
       "wrong_turns": "The prevailing theory blamed bad air, not contaminated water, so money went to moving the smell rather than the water. John Snow's 1854 water map was resisted for years. Chloride of lime was dumped into the river to mask the stench.",
       "the_fix": "Joseph Bazalgette designed a sewer system that diverted waste away from the river, built 1859 to 1875, and famously sized the pipes for a population far larger than London had at the time.",
-      "delta": "NEEDS VERIFICATION: get the London cholera death toll for the 1853-54 epidemic, the Broad Street outbreak death count, and a life-expectancy or mortality improvement figure for London after the sewers.",
+      "delta": "Cholera outbreaks 1832 (6,536), 1849 (14,137), 1853-54 (10,738) in London. Last outbreak 1866 killed 5,596, 93% in the unconnected East End. Sewers ended cholera in London; system still in use for 9M+ people. Reveal: the flush. First 'sewer' mention at 44.7% (target 38-56).",
       "hook_note": "The reveal is the sewer under the street. Strong, but the delta numbers are not secured yet. Verify before writing.",
       "links_to_existing": [],
-      "gate_verdict": "PASS on crisis, HOLD on delta. Needs numbers.",
+      "gate_verdict": "PASS on crisis and delta. Published 2026-10-09.",
       "sources": [
         "https://www.sciencemuseum.org.uk/objects-and-stories/medicine/cholera-victorian-london",
         "https://epi-snow.ph.ucla.edu/Stream2_BSPoutbreak_e.html"
       ],
-      "status": "candidate"
+      "status": "published",
+      "published_date": "2026-10-09",
+      "words": 2712,
+      "url": "https://sinapeos.com/posts/london-sewers-great-stink",
+      "audio": true,
+      "hero_image": "PD cartoon The Silent Highwayman (Punch 1858), 1280x720"
     },
     {
       "rank": 7,

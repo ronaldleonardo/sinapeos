@@ -14,3 +14,5 @@
 2026-10-08: insulin-1921-death-sentence (2276 words body) - The Unnoticed Fix series. Audio generated. No hero image (Atlas hold).
 2026-10-08: anesthesia-ether-1846 (2403 words body) - The Unnoticed Fix series. Audio generated. No hero image (Atlas hold).
 2026-10-08: iodized-salt-goiter-belt (2223 words body) - The Unnoticed Fix series. Audio generated. No hero image (Atlas hold).
+
+- **2026-10-09** London Blamed the Smell. The Water Was Killing Them. | /posts/london-sewers-great-stink | 2,712 words | The Unnoticed Fix. Hero from PD 1858 Punch cartoon. Object (the flush) unnamed in Act 1; first sewer mention 44.7%. Audio generated.
