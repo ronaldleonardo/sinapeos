@@ -94,6 +94,13 @@
       "slug": "guinea-worm-eradication",
       "status": "done",
       "date": "2026-10-07"
+    },
+    {
+      "title": "The Cure That Was Already in the Kitchen",
+      "slug": "oral-rehydration-therapy",
+      "status": "done",
+      "date": "2026-10-12",
+      "series": "The Unnoticed Fix"
     }
   ]
 }

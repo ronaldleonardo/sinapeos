@@ -16,3 +16,5 @@
 2026-10-08: iodized-salt-goiter-belt (2223 words body) - The Unnoticed Fix series. Audio generated. No hero image (Atlas hold).
 
 - **2026-10-09** London Blamed the Smell. The Water Was Killing Them. | /posts/london-sewers-great-stink | 2,712 words | The Unnoticed Fix. Hero from PD 1858 Punch cartoon. Object (the flush) unnamed in Act 1; first sewer mention 44.7%. Audio generated.
+
+- **2026-10-12** Cholera Killed a Third of Them. The Cure Was in the Kitchen. | /posts/oral-rehydration-therapy | 4,066 words body | The Unnoticed Fix. Crisis: 1971 Bangladesh refugee crisis, ~10 million refugees into India, cholera CFR ~30%, Bangaon camp 350,000 refugees, ~200 patients/day. Protagonist: Dilip Mahalanabis (backstory: Kishoreganj 1934, Calcutta Medical College 1958, London registrar 1961, returned 1966). Object (sugar + salt) unnamed in Act 1; first mention 52% (sugar and salt both). Death rate fell 30% to under 4%; Lancet 1978 "most important medical advance this century"; ~50 million+ lives saved. Hero: CDC PHIL #5301 (public domain, no credit line). Audio 24.4 min, generated from the FULL body (no 15k truncation).
