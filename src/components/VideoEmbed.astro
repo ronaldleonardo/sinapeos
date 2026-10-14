@@ -1,0 +1,52 @@
+---
+/**
+ * Reusable YouTube embed for Sinapeos articles.
+ * Add a video to any post with:
+ *   <VideoEmbed id="VIDEO_ID" title="..." caption="..." uploadDate="..." duration="PT8M30S" description="..." />
+ * id/title are required. uploadDate + description enable the VideoObject schema.
+ */
+interface Props {
+  id: string;
+  title: string;
+  caption?: string;
+  uploadDate?: string;
+  duration?: string;
+  description?: string;
+}
+
+const { id, title, caption, uploadDate, duration, description } = Astro.props;
+
+const emitSchema = Boolean(title && uploadDate && description);
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'VideoObject',
+  name: title,
+  description,
+  thumbnailUrl: [`https://i.ytimg.com/vi/${id}/maxresdefault.jpg`],
+  uploadDate,
+  ...(duration ? { duration } : {}),
+  embedUrl: `https://www.youtube.com/embed/${id}`,
+  publisher: {
+    '@type': 'Organization',
+    name: 'Sinapeos',
+    url: 'https://sinapeos.com',
+  },
+};
+---
+
+<figure class="video-embed">
+  <div class="video-frame">
+    <iframe
+      src={`https://www.youtube-nocookie.com/embed/${id}?rel=0`}
+      title={title}
+      loading="lazy"
+      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </div>
+  {caption && <figcaption>{caption}</figcaption>}
+</figure>
+
+{emitSchema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
