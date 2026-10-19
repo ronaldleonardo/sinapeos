@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import VideoEmbed from '../../components/VideoEmbed.astro';
 ---
 
 <BaseLayout
@@ -21,6 +22,14 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   <img src="/images/cuyahoga-river-cleanup.png" alt="An impressionist oil painting of the Cuyahoga River flowing cleanly through a city at golden hour" loading="eager" width="1200" height="675" />
 </figure>
 
+<VideoEmbed
+  id="QgUOU9kUmwQ"
+  title="When a River Caught Fire ... And Gave Us Clean Water"
+  caption="Prefer to watch? This is the same story in 7 minutes."
+  uploadDate="2026-10-17T23:54:34-07:00"
+  duration="PT7M5S"
+  description="June 22, 1969. The Cuyahoga River in Cleveland, Ohio was so polluted with oil and chemicals that it literally caught fire. That fire led to the EPA and the Clean Water Act."
+/>
 
 <div class="toc">
   <div class="toc-title">What You Will Learn (Click to Skip)</div>
@@ -34,19 +43,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 </div>
 
 <div class="article-body">
-
-<div class="audio-player" style="margin-bottom: 2rem; padding: 0.75rem 1rem; background: var(--bg-hover); border-radius: 8px;">
-      <div style="display: flex; align-items: center; gap: 0.75rem;">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink: 0; color: var(--accent);">
-          <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
-          <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
-        </svg>
-        <span style="font-size: 0.9rem; color: var(--text-dim);">Listen to this story</span>
-      </div>
-      <audio controls style="width: 100%; margin-top: 0.5rem;" preload="metadata">
-        <source src="/audio/cuyahoga-river-cleanup.mp3" type="audio/mpeg">
-      </audio>
-    </div>
 
     
 <!-- ACT 1: Person in a moment + Impossible framing -->
