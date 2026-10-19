@@ -63,6 +63,19 @@ const url = canonical ? `${siteUrl}${canonical}` : Astro.url.href;
   )}
 
   <!-- Structured Data -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": siteName,
+    "url": `${siteUrl}/`,
+  })} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": siteName,
+    "url": `${siteUrl}/`,
+    ...(logoUrl ? { "logo": logoUrl } : {}),
+  })} />
   {article && (
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
