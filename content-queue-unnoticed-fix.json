@@ -184,7 +184,7 @@
       "crisis": "1920s households. Early refrigerators ran on ammonia, sulfur dioxide, and methyl chloride, and leaks killed families in their sleep. Newspapers called them death traps. At the same time, foodborne disease was a mass killer and vaccines could not be moved to the places that needed them.",
       "wrong_turns": "Refrigerant manufacturers kept swapping one toxic gas for another. The safer alternative everyone wanted did not exist.",
       "the_fix": "Thomas Midgley Jr.'s team developed chlorofluorocarbons (Freon) around 1930, a non-toxic, non-flammable refrigerant. The same man had earlier led the team that added tetraethyl lead to gasoline.",
-      "delta": "NEEDS VERIFICATION: get the pre-refrigeration foodborne illness figures and, crucially, numbers proving the cold chain was essential to polio and smallpox eradication campaigns.",
+      "delta": "VERIFIED. Early coolants: ammonia, sulfur dioxide, methyl chloride. July 1929 Chicago: coroner's jury of pathologists and chemists found at least fifteen deaths from gases used in artificial refrigeration; the health commissioner listed twelve made ill and seven dead in a few weeks; NYT headline 2 July 1929, \"Ice Machine Gas Kills 15 in Chicago\". AMA 1930 rated methyl chloride the most dangerous of six household coolants for delayed effects. Household refrigerator ownership: under 10 percent in 1930, more than 44 percent by 1940, about 85 percent by 1944. Cold chain delta: vaccination saved an estimated 154 million lives since 1974 (nearly 94 million from measles). Gavi since 2017: 37,000+ ice-lined fridges and freezers, 45,000+ solar direct-drive units, 200+ cold rooms, 23,000+ cold boxes across 50+ countries. Honest nuance: smallpox was beaten partly by REMOVING the need for cold (Leslie Collier's freeze-dried vaccine, 12 months at 22C).",
       "hook_note": "STRONGEST CROSS-LINK IN THE SET. The refrigerant that made fridges safe went on to tear a hole in the ozone layer, which is the article this site already published. Build this as a companion to the ozone story and link both ways. Midgley putting lead in gasoline AND CFCs in the air is the kind of detail that writes itself, but verify the leaded gasoline role.",
       "links_to_existing": [
         "ozone-hole-healing",
@@ -197,7 +197,6 @@
         "https://pubs.acs.org/doi/10.1021/ed300098d",
         "https://midgelyawards.com/midgley"
       ],
-      "delta": "VERIFIED. Early coolants: ammonia, sulfur dioxide, methyl chloride. July 1929 Chicago: coroner's jury of pathologists and chemists found at least fifteen deaths from gases used in artificial refrigeration; the health commissioner listed twelve made ill and seven dead in a few weeks; NYT headline 2 July 1929, \"Ice Machine Gas Kills 15 in Chicago\". AMA 1930 rated methyl chloride the most dangerous of six household coolants for delayed effects. Household refrigerator ownership: under 10 percent in 1930, more than 44 percent by 1940, about 85 percent by 1944. Cold chain delta: vaccination saved an estimated 154 million lives since 1974 (nearly 94 million from measles). Gavi since 2017: 37,000+ ice-lined fridges and freezers, 45,000+ solar direct-drive units, 200+ cold rooms, 23,000+ cold boxes across 50+ countries. Honest nuance: smallpox was beaten partly by REMOVING the need for cold (Leslie Collier's freeze-dried vaccine, 12 months at 22C).",
       "title_final": "The Machine That Killed Families in Their Sleep",
       "hero_image": "public/images/cold-chain-freon-refrigeration.jpg, 1344x768, from the public domain Library of Congress Harris and Ewing photograph of 1937 (no credit line required).",
       "audio": "public/audio/cold-chain-freon-refrigeration.mp3, generated from the full body, cache-busted at ?v=1.",
@@ -241,6 +240,36 @@
         "https://www.nobelprize.org/uploads/2018/06/nakamura-lecture.pdf"
       ],
       "status": "candidate"
+    },
+    {
+      "rank": 11,
+      "tier": "green",
+      "title": "The Rot That Killed More Sailors Than Combat",
+      "slug": "scurvy-citrus-cure",
+      "reveal": "The carton of orange juice in your fridge, and the pepper in the crisper.",
+      "crisis": "At sea, 1500 to 1800. Anson's 1740-1744 circumnavigation: of the 961 men who left Britain on Centurion, Gloucester and Tryal, 626 died, most of scurvy. On the Centurion alone, 43 died in April 1741 and double that in May. Historians estimate more than two million sailors died of scurvy between Columbus and the steam engine, more than storms, shipwrecks, combat and all other diseases combined.",
+      "wrong_turns": "Bad air, damp air, salt meat, laziness, homesickness and blocked sweat glands. Treatments issued to Anson's crews: vinegar, elixir of vitriol, Ward's Drop and Pill. The cure was found and forgotten repeatedly: Cartier's crew in 1535, Bachstrom's antiscorbutic argument in 1734.",
+      "the_fix": "James Lind's controlled trial of 20 May 1747 aboard HMS Salisbury: twelve sailors, six pairs, six treatments. The pair given two oranges and one lemon recovered within the week. Gilbert Blane persuaded the Admiralty to issue lemon juice in 1795.",
+      "delta": "Haslar naval hospital scurvy admissions: 1,457 in 1780; 2 between 1806 and 1810. Then the cure was lost again: procurement switched from Mediterranean lemons to West Indian limes in 1860, and limes carry about half the vitamin C, with much of the rest destroyed by air and copper piping. A 1918 animal test on the navy's own juice found it often had no antiscorbutic power at all. Ascorbic acid was isolated in 1932; Szent-Gyorgyi won the 1937 Nobel Prize.",
+      "hook_note": "The strongest structural beat is the reversal: the fix worked, then a purchasing decision undid it, and men died for seventy more years with the remedy in the hold.",
+      "links_to_existing": [
+        "pasteurization-milk-infant-mortality"
+      ],
+      "gate_verdict": "PASS all tests. Crisis-first, single concrete object (citrus), and an unusually strong Act 2 because the wrong turns include the cure itself being lost.",
+      "sources": [
+        "https://www.sciencehistory.org/stories/magazine/the-age-of-scurvy/",
+        "https://idlewords.com/2010/03/scott_and_scurvy.htm",
+        "https://en.wikipedia.org/wiki/George_Anson%27s_voyage_around_the_world",
+        "https://en.wikipedia.org/wiki/James_Lind",
+        "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+      ],
+      "status": "published",
+      "published_date": "2026-10-19",
+      "words_body": 4210,
+      "url": "https://sinapeos.com/posts/scurvy-citrus-cure",
+      "audio": true,
+      "object_first_mention": "44.2 percent of the body. Object name absent from Act 1.",
+      "hero_image": "public/images/scurvy-citrus-cure.jpg, 1344x768, from the public domain Charles Edward Dixon painting of HMS Centurion engaging the Nuestra Senora de Covadonga (no credit line required)."
     }
   ]
 }
