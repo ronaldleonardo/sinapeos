@@ -306,6 +306,40 @@
    "published_date": "2026-10-23",
    "words": 3924,
    "url": "/posts/exit-doors-would-not-open"
+  },
+  {
+   "rank": 13,
+   "tier": "green",
+   "title": "Doctors Were Killing Mothers With Their Own Hands",
+   "slug": "childbed-fever-vienna-1847",
+   "reveal": "The sink and the pump bottle in your bathroom, and the wall dispenser in every hospital corridor.",
+   "crisis": "Vienna, spring 1847. The maternity clinic of the Vienna General Hospital ran two divisions in one building. The First Division (male medical students, who did autopsies) lost 459 of 4,010 mothers in 1846, 11.4 percent, with months as high as 31.4 percent (December 1842). Women begged on their knees not to be admitted and some gave birth in the street to avoid it.",
+   "wrong_turns": "Bad air (miasma), ventilation, the epidemic constitution, bloodletting, overcrowding (ruled out because the safer division was the fuller one), climate, birth position, and Semmelweis's own attempt to reroute the last-rites priest. Earlier and ignored: Oliver Wendell Holmes's 1843 Boston essay, rejected by Hodge and Meigs.",
+   "the_fix": "Ignaz Semmelweis, assistant on the First Division from 1 July 1846. After Jakob Kolletschka died of a scalpel wound taken during an autopsy in March 1847, Semmelweis linked cadaverous particles to childbed fever and ordered chlorinated lime handwashing before every examination in mid-May 1847. April 1847 was 18.3 percent. June 2.2 percent, July 1.2 percent, August 1.9 percent. Full year 1848: 45 deaths in 3,556 deliveries, 1.3 percent, with two months at zero.",
+   "delta": "One in ten to about one in eighty inside a year, with no new building or drug. The clinic's own 1861 tables then show the First Division at 4.0 percent in 1852 and 9.1 percent in 1854, after Semmelweis was dismissed on 20 March 1849. Today: about 260,000 maternal deaths in 2023 (WHO), global MMR 197 per 100,000, down 40 percent since 2000; infection still among the top five causes of maternal death; about 1 million of the 4.1 million maternal and neonatal deaths a year linked to unhygienic birthing practice including unwashed hands; 7 in 100 patients in developed countries and 15 in 100 in developing countries acquire a health care associated infection; appropriate hand hygiene prevents up to 50 percent of avoidable infections; compliance around 9 percent in low income country intensive care and rarely above 70 percent in high income countries.",
+   "hook_note": "Reveal ladder verified: the reveal term (soap) is absent from the Act 1 slice and first appears at 45.9 percent of the 4,857 word body. Semmelweis died on 13 August 1865 of sepsis from infected wounds, fourteen days after being committed to the Dobling asylum; Pasteur and Lister explained his finding a decade after his death.",
+   "links_to_existing": [
+    "pasteurization-milk-infant-mortality",
+    "exit-doors-would-not-open",
+    "pellagra-goldberger-south"
+   ],
+   "gate_verdict": "PASS all four extra gates. Crisis gate: date, place, death toll, and a public that treated childbed fever as a fact of life. Unnoticed gate: the reader washes their hands several times a day and has never thought of the sink as a medical device. Reveal gate: one concrete object (the sink and the soap at it).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+    "https://en.wikipedia.org/wiki/Historical_mortality_rates_of_puerperal_fever",
+    "https://en.wikipedia.org/wiki/Contemporary_reaction_to_Ignaz_Semmelweis",
+    "https://www.sciencehistory.org/education/scientific-biographies/ignaz-semmelweis/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7476981/",
+    "https://www.who.int/news-room/fact-sheets/detail/maternal-mortality",
+    "https://www.who.int/campaigns/world-hand-hygiene-day/2021/key-facts-and-figures"
+   ],
+   "status": "published",
+   "published_date": "2026-10-28",
+   "words_body": 4857,
+   "url": "/posts/childbed-fever-vienna-1847",
+   "audio": true,
+   "object_first_mention": "45.9 percent of the body. Reveal term absent from Act 1.",
+   "hero_image": "public/images/semmelweis-childbed-fever.jpg, 1344x768, from the public domain 1864 Ludwig Angerer photograph of Semmelweis (no credit line required)."
   }
  ]
 }
