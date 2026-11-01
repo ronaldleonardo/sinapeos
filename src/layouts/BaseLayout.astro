@@ -274,6 +274,10 @@ const url = canonical ? `${siteUrl}${canonical}` : Astro.url.href;
         margin-bottom: 1rem; color: var(--text-dim);
       }
       .related-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+      .related-posts .hub-link {
+        font-family: var(--font-sans); font-size: 0.85rem;
+        color: var(--text-dim); margin: -0.5rem 0 1rem;
+      }
       .related-card {
         padding: 1rem; border: 1px solid var(--border); border-radius: 8px;
         text-decoration: none; transition: all 0.15s;
@@ -349,6 +353,7 @@ const url = canonical ? `${siteUrl}${canonical}` : Astro.url.href;
       <div class="nav-links">
         <a href="/">Stories</a>
         <a href="/posts">All stories</a>
+        <a href="/series">The Series</a>
         <a href="/about">About</a>
       </div>
     </nav>

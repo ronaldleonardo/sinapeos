@@ -1,0 +1,123 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { stories, unnoticed, mainline } from '../data/stories.js';
+
+const seriesList = [
+  {
+    name: 'The Unnoticed Fix',
+    blurb: 'The solutions nobody puts in a textbook. A sewer under London, a pinch of iodine, a door that opens outward, a review that never happened. Each one is a thing that sits quietly in your day, still doing its job.',
+    items: unnoticed,
+  },
+  {
+    name: 'Hard Problems, Solved',
+    blurb: 'The bigger fights, with names attached. A virus driven out of ten million refugees, a river brought back from fire, a sky that healed because the world signed one piece of paper.',
+    items: mainline,
+  },
+];
+
+const itemList = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'The Series: Sinapeos',
+  description:
+    'Two series on humanity solving hard problems: The Unnoticed Fix and Hard Problems, Solved.',
+  hasPart: stories.map((s) => ({
+    '@type': 'Article',
+    headline: s.title,
+    url: `https://sinapeos.com/posts/${s.slug}`,
+    datePublished: s.date,
+  })),
+};
+---
+
+<BaseLayout
+  title="The Series: Two Ways Humanity Solves Hard Problems"
+  description="The Unnoticed Fix covers the quiet solutions hiding in plain sight. Hard Problems, Solved covers the named fights. All 25 Sinapeos stories, grouped in one place."
+  canonical="/series"
+>
+  <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
+
+  <h1 style="font-size: 2rem; margin-bottom: 0.5rem;">The Series</h1>
+  <p style="color: var(--text-dim); margin-bottom: 0.4rem;">
+    {stories.length} stories, split two ways.
+  </p>
+  <p style="color: var(--text-dim); margin-bottom: 2.5rem;">
+    Same subject underneath both: somebody noticed something everyone else had stopped looking at. If you are new here, start with the series that matches your mood. If you want the whole shelf, <a href="/posts">all stories</a> is one page.
+  </p>
+
+  {seriesList.map((series) => (
+    <section class="series-block">
+      <h2>{series.name}</h2>
+      <p class="series-blurb">{series.blurb}</p>
+      <div class="story-list">
+        {series.items.map((story) => (
+          <a href={`/posts/${story.slug}`} class="story-card">
+            <div class="story-meta">
+              <span>{story.date}</span>
+              {story.topics.map((t) => <span class="topic-tag">{t}</span>)}
+            </div>
+            <h3>{story.title}</h3>
+            <p>{story.desc}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
+
+  <div class="hub-note">
+    Every story is researched from primary sources and cross checked. See <a href="/about">how this is written</a>.
+  </div>
+</BaseLayout>
+
+<style is:global>
+  .series-block {
+    margin-bottom: 3rem;
+  }
+  .series-block h2 {
+    font-size: 1.6rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .series-blurb {
+    color: var(--text-dim);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    max-width: 62ch;
+  }
+  .story-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .story-card { text-decoration: none; display: block; }
+  .story-card h3 {
+    font-size: 1.15rem;
+    margin: 0.35rem 0 0.3rem;
+    color: #fff;
+  }
+  .story-card p { color: var(--text-dim); font-size: 0.95rem; }
+  .story-meta {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.78rem;
+    color: var(--text-dim);
+  }
+  .topic-tag {
+    background: var(--bg-hover);
+    padding: 0.1rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    color: var(--accent);
+  }
+  .hub-note {
+    margin-top: 1rem;
+    padding: 1rem 1.25rem;
+    background: var(--bg-card);
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: var(--text-dim);
+  }
+</style>
