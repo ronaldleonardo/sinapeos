@@ -1,6 +1,7 @@
 // src/data/stories.js  -  single source of truth for the story index.
 // Used by /posts (full list) and /series (grouped hub).
 export const stories = [
+  { title: "The Second Crash Is the One That Kills You", slug: "second-collision-seat-belt", date: "2026-11-06", topics: ["The Unnoticed Fix", "Engineering"], desc: "In 1966, American roads killed 50,894 people in one year. Most of them died in the crash that came after the crash. The fix is beside your shoulder right now." },
   { title: "London Called It Fog. It Killed 12,000 People.", slug: "great-smog-london-1952", date: "2026-10-30", topics: ["Environment", "Public Health"], desc: "In December 1952 a yellow fog settled over London and killed 12,000 people in five days. The government called it weather. An industrialist named Hugh Beaver proved it was a choice." },
   { title: "Doctors Were Killing Mothers With Their Own Hands", slug: "childbed-fever-vienna-1847", date: "2026-10-28", topics: ["The Unnoticed Fix", "Medicine"], desc: "The first clinic lost one mother in ten. The second lost one in forty. In 1847 a young doctor in Vienna worked out why, and the men in charge never forgave him." },
   { title: "The Plague That Started With a Full Plate", slug: "pellagra-goldberger-south", date: "2026-10-26", topics: ["Medicine", "Public Health"], desc: "From 1906 to 1940, pellagra killed 100,000 Americans who ate every day. One doctor found the cause, and the South spent 15 years calling him a liar." },

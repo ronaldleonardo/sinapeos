@@ -340,6 +340,41 @@
    "audio": true,
    "object_first_mention": "45.9 percent of the body. Reveal term absent from Act 1.",
    "hero_image": "public/images/semmelweis-childbed-fever.jpg, 1344x768, from the public domain 1864 Ludwig Angerer photograph of Semmelweis (no credit line required)."
+  },
+  {
+   "rank": 14,
+   "tier": "green",
+   "title": "The Second Crash Is the One That Kills You",
+   "slug": "second-collision-seat-belt",
+   "reveal": "The seat belt over your shoulder and across your hips, clicked with one hand.",
+   "crisis": "US roads, 1966: 50,894 deaths in one year, 5.50 fatalities per 100 million vehicle miles traveled. The second collision (the occupant hitting the interior after the car stops) was the killer, and roughly nine occupants in ten were unrestrained.",
+   "wrong_turns": "A single strap low across the waist loaded the soft abdomen and caused internal injury; Nash offered it in 40,000 cars in 1949 and buyers asked dealers to remove it; the belief that it was safer to be thrown clear; the industry position that restraints did not sell; the 1974 ignition interlock, which Congress banned after public fury; Peltzman's 1975 risk-compensation argument.",
+   "the_fix": "Nils Bohlin, trained on Saab ejection seats, joined Volvo in 1958 and spent about a year designing a combined lap-and-shoulder belt: two straps built as one unit meeting at a single anchorage point beside the hip, buckled with one hand, loading the ribcage and pelvis and skipping the abdomen. First sold as standard in a Volvo in August 1959; Volvo opened the patent to all makers.",
+   "delta": "1967 Stapp paper on 28,000 accidents: no belted occupant killed below 60 mph and none killed where the passenger compartment stayed intact, with risk of injury or death cut by as much as 75 percent. US belt use 11 percent before 1980, 15 percent in the early 1980s, 50 percent by 1990, 91.6 percent in 2022. US fatality rate fell from 5.50 (1966) to 1.19 (2024) per 100 million VMT. About 15,000 US lives saved a year, over 315,000 from 1975 to 2013, over a million worldwide by Volvo's estimate. Unfinished: 1.19 million global road deaths in 2021, over 90 percent in low- and middle-income countries; nearly half of US passenger-vehicle occupants killed in 2024 were unbelted.",
+   "hook_note": "Reveal ladder verified: the word 'belt' is absent from the Act 1 slice (first standalone 'belt' at 43.3 percent of the 4,170-word body). Act 4 lands the reveal on the strap the reader is wearing.",
+   "links_to_existing": [
+    "exit-doors-would-not-open",
+    "cold-chain-freon-refrigeration"
+   ],
+   "gate_verdict": "PASS all four extra gates. Crisis gate: date, place, death toll and a public that treated road carnage as the price of the automobile. Unnoticed gate: the reader clicks this every day and has never thought about it. Reveal gate: one concrete object (the belt over the shoulder).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hugh_DeHaven",
+    "https://cdan.dot.gov/tsftables/Fatalities%20and%20Fatality%20Rates.pdf",
+    "https://lemelson.mit.edu/resources/nils-bohlin",
+    "https://en.wikipedia.org/wiki/Nils_Bohlin",
+    "https://www.volvogroup.com/en/about-us/heritage/three-point-safety-belt.html",
+    "https://en.wikipedia.org/wiki/Seat_belt",
+    "https://en.wikipedia.org/wiki/Click_It_or_Ticket",
+    "https://www.nhtsa.gov/book/countermeasures-that-work/seat-belts-and-child-restraints",
+    "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries"
+   ],
+   "status": "published",
+   "published_date": "2026-11-06",
+   "words": 4170,
+   "url": "https://sinapeos.com/posts/second-collision-seat-belt",
+   "audio": true,
+   "object_first_mention": "43.3 percent of the body. Object name absent from Act 1.",
+   "hero_image": "public/images/second-collision-seat-belt.jpg, 1344x768, public domain NIST seat-belt test-sled photograph (no credit line required)."
   }
  ]
 }
