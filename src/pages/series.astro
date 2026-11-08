@@ -31,8 +31,8 @@ const itemList = {
 ---
 
 <BaseLayout
-  title="The Series: Two Ways Humanity Solves Hard Problems"
-  description="The Unnoticed Fix covers the quiet solutions hiding in plain sight. Hard Problems, Solved covers the named fights. All 25 Sinapeos stories, grouped in one place."
+  title="The Series: Two Ways We Solve Hard Problems"
+  description={`The Unnoticed Fix covers the quiet solutions hiding in plain sight. Hard Problems, Solved covers the named fights. All ${stories.length} Sinapeos stories, grouped in one place.`}
   canonical="/series"
 >
   <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
