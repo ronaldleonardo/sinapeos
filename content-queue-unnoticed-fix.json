@@ -375,6 +375,54 @@
    "audio": true,
    "object_first_mention": "43.3 percent of the body. Object name absent from Act 1.",
    "hero_image": "public/images/second-collision-seat-belt.jpg, 1344x768, public domain NIST seat-belt test-sled photograph (no credit line required)."
+  },
+  {
+   "rank": 15,
+   "tier": "green",
+   "title": "The Smoke Got There First. 85 People Died.",
+   "slug": "smoke-alarm-mgm-grand-fire",
+   "reveal": "The white disc on your ceiling: the smoke alarm.",
+   "crisis": "MGM Grand fire, Paradise, Nevada, Friday 21 November 1980, 7:07 a.m. Fire began in a refrigerated pastry display case in a closed ground-floor restaurant. 85 dead (78 guests, 7 employees), roughly 600 to 700 injured. The fire never left the first floor; 75 of the 85 died of smoke inhalation and carbon monoxide poisoning, about 64 of them on the upper floors, mostly between the 20th and 25th. Ten dead were found in an elevator. Helicopters lifted about 1,000 people off the roof.",
+   "wrong_turns": "The 1973 Clark County sprinkler exemption for areas occupied 24 hours a day, on the reasoning that a fire would be noticed quickly and put out with a portable extinguisher (the restaurant was closed). A full sprinkler system would have cost $192,000. Before that, a century of heat sensing: Upton's 1890 automatic electric fire warning system, Darby's 1902 heat detector, the 1955 home heat units. The belief that flames kill, when smoke is what kills. Ionization units existed from 1951 but were industrial sized and priced, and needed an Atomic Energy Commission licence until 1969.",
+   "the_fix": "Walter Jaeger's late 1930s poison gas detector that registered cigarette smoke instead; Ernst Meili's 1939 ionization chamber and cold cathode amplifier; Duane Pearsall and Lyman Blackwell's accidental ion meter reading in Lakewood, Colorado, 1963; Pearsall and Stanley Bennett Peterson's 1965 battery powered home unit (SmokeGard 700); solid state electronics 1971 to 1976; mass production 1975; the 1976 Life Safety Code requirement for smoke alarms in homes; the 1981 Nevada law after the MGM Grand and Las Vegas Hilton fires.",
+   "delta": "US home fire deaths fell from about 5,200 in 1980 to 2,890 in 2023, 44 percent lower. Working smoke alarms cut the risk of dying in a reported home fire roughly in half (NFPA: 0.53 deaths per 100 fires with working alarms against 1.18 without, 2009 to 2013). Four of every ten home fire deaths in 2003 to 2006 were in homes with no alarm. 59 percent of home fire deaths 2018 to 2022 were in homes with no alarm or a failed alarm.",
+   "hook_note": "Reveal ladder verified: the object is absent from the Act 1 slice; first standalone 'smoke detector' at 42.2 percent of the 4,110 word body ('alarm' at 43.9 percent, 'detector' at 39.2 percent), inside the 38 to 56 target.",
+   "links_to_existing": [
+    "exit-doors-would-not-open",
+    "second-collision-seat-belt",
+    "cold-chain-freon-refrigeration"
+   ],
+   "gate_verdict": "PASS all four extra gates. Crisis gate: date, place, death toll and a public that treated fire deaths as the price of buildings. Unnoticed gate: the reader walks past the disc daily and has never thought about it. Reveal gate: one concrete object (the disc on the ceiling).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/MGM_Grand_fire",
+    "https://en.wikipedia.org/wiki/Duane_D._Pearsall",
+    "https://en.wikipedia.org/wiki/Smoke_detector",
+    "https://www.fireengineering.com/fire-safety/nfpa-40-percent-of-all-home-fire-deaths-resulted-in-fires-at-homes-with-no-smoke-alarms/",
+    "https://en.wikipedia.org/wiki/America_Burning"
+   ],
+   "status": "published",
+   "published_date": "2026-11-20",
+   "words_body": 4110,
+   "url": "https://sinapeos.com/posts/smoke-alarm-mgm-grand-fire",
+   "audio": "public/audio/smoke-alarm-mgm-grand-fire.mp3, generated from the full body in 7 chunks, 23.5 min, cache-busted at ?v=1",
+   "object_first_mention": "42.2 percent of the body (first standalone 'smoke detector'). Object absent from Act 1.",
+   "hero_image": "public/images/smoke-alarm-mgm-grand-fire.jpg, 1344x768, public domain US Air Force photograph by MSgt Rick Diaz of the 21 November 1980 roof rescue (no credit line required)."
+  },
+  {
+   "rank": 16,
+   "tier": "red",
+   "title": "The Match in Your Hand Was Killing the People Who Made It",
+   "slug": "safety-match-phossy-jaw",
+   "reveal": "The match you strike for a candle, and the words safety match on the box.",
+   "crisis": "Phossy jaw, phosphorus necrosis of the jaw, in match factory workers, 1839 to the 1910s. First case diagnosed 1839 by Friedrich Wilhelm Lorinser in Vienna. Mortality around 20 percent of cases. Bryant and May in Bow, London: if a worker complained of toothache she was told to have the teeth removed immediately or be sacked. London matchgirls strike, 2 July 1888, about 1,400 women and girls out.",
+   "the_fix": "Red phosphorus striking surface (Pasch, 1844), the Lundstrom safety match in Jonkoping, the 1906 Berne Convention ban on white phosphorus in matches, the UK White Phosphorus Matches Prohibition Act 1908 (effective 1 January 1910), the US punitive tax of 1913.",
+   "gate_verdict": "FAIL the reveal ladder, not the crisis gate. The crisis is a match factory, so the object cannot stay unnamed through Act 1. The series premise dies in paragraph one. Rejected 2026-11-20. Belongs in the main Sinapeos line at most.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Phossy_jaw",
+    "https://en.wikipedia.org/wiki/London_matchgirls_strike_of_1888",
+    "https://en.wikipedia.org/wiki/Safety_match"
+   ],
+   "status": "rejected"
   }
  ]
 }
