@@ -1,6 +1,7 @@
 // src/data/stories.js  -  single source of truth for the story index.
 // Used by /posts (full list) and /series (grouped hub).
 export const stories = [
+  { title: "The Smoke Got There First. 85 People Died.", slug: "smoke-alarm-mgm-grand-fire", date: "2026-11-20", topics: ["The Unnoticed Fix", "Engineering"], desc: "On November 21, 1980, a fire in a Las Vegas casino killed 85 people, most of them asleep 20 floors above the flames. The device that saved them was on sale." },
   { title: "Cattle Died First. Then the People Did.", slug: "rinderpest-eradication", date: "2026-11-13", topics: ["Food", "Public Health"], desc: "In the 1890s, a virus killed nine of every ten cattle in Africa and a third of Ethiopia's people. A century later, the world erased it and gave it no parade." },
   { title: "The Second Crash Is the One That Kills You", slug: "second-collision-seat-belt", date: "2026-11-06", topics: ["The Unnoticed Fix", "Engineering"], desc: "In 1966, American roads killed 50,894 people in one year. Most of them died in the crash that came after the crash. The fix is beside your shoulder right now." },
   { title: "London Called It Fog. It Killed 12,000 People.", slug: "great-smog-london-1952", date: "2026-10-30", topics: ["Environment", "Public Health"], desc: "In December 1952 a yellow fog settled over London and killed 12,000 people in five days. The government called it weather. An industrialist named Hugh Beaver proved it was a choice." },
