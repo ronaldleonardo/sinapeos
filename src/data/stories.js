@@ -1,6 +1,7 @@
 // src/data/stories.js  -  single source of truth for the story index.
 // Used by /posts (full list) and /series (grouped hub).
 export const stories = [
+  { title: "Children Led Their Blind Parents With a Stick", slug: "river-blindness-vector-control", date: "2026-11-27", topics: ["Public Health", "Africa"], desc: "In 1974, a third of the adults in some West African villages were blind, and the experts had given up. Then a French entomologist took a banker to a river." },
   { title: "The Smoke Got There First. 85 People Died.", slug: "smoke-alarm-mgm-grand-fire", date: "2026-11-20", topics: ["The Unnoticed Fix", "Engineering"], desc: "On November 21, 1980, a fire in a Las Vegas casino killed 85 people, most of them asleep 20 floors above the flames. The device that saved them was on sale." },
   { title: "Cattle Died First. Then the People Did.", slug: "rinderpest-eradication", date: "2026-11-13", topics: ["Food", "Public Health"], desc: "In the 1890s, a virus killed nine of every ten cattle in Africa and a third of Ethiopia's people. A century later, the world erased it and gave it no parade." },
   { title: "The Second Crash Is the One That Kills You", slug: "second-collision-seat-belt", date: "2026-11-06", topics: ["The Unnoticed Fix", "Engineering"], desc: "In 1966, American roads killed 50,894 people in one year. Most of them died in the crash that came after the crash. The fix is beside your shoulder right now." },
